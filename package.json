@@ -1,5 +1,5 @@
 {
-  "name": "@splint-demo/app-chat",
+  "name": "@split-demo/app-chat",
   "version": "1.0.0",
   "description": "Split Demo Chat App",
   "main": "./src/App.js",
