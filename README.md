@@ -70,33 +70,3 @@ The following packages were chosen to satisfy the needs of the app:
 * Tests were written for components, reducers, selectors. Action creators are usually too simple to properly test.
 
 * If message log is scrolled to the bottom when a new message is received, it stays scrolled to the bottom. Otherwise it stays at the same scroll position, allowing user to continue reading the past message they were reading.
-
-## Lessons learned
-
-* Might have fallen prey to the premature optimization error when opting to use uncontrolled input. Don't have much experience with mobile performance.
-
-* First time implementing flex layout from scratch.
-
-* First time using getSnapshotBeforeUpdate()
-
-## Future improvements
-
-If this was a real long-term project:
-
-* Would ask backend developers to provide a WebSocket API
-
-* Error notifications.
-
-* Backend should not be turning special characters into HTML entities.
-
-* Would eject so that we can use CSS pre- and/or post-processors and properly load polyfills.
-
-* New message(s) indicator when user is not scrolled down to the bottom. Clickable so that it can take user to the bottom instnatly. Similar to how all modern chat apps do it.
-
-* Would consider benefits of a localized date format compared to drawbacks of probably having to add a huge library like moment and/or Intl polyfill.
-
-* Would ask designers for font files and size specifications. Also would comment that names and datetimes are too pale to be readable.
-
-* With a larger restful API, would abstract away the RESPONSE_REQUESTED => async request => RESPONSE_RECEIVED / ERROR flow similar to how redux-observable does it, and write tests for the abstraction.
-
-* Would add prettier.
