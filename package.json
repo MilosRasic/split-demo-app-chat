@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Split Demo Chat App",
   "main": "./src/App.js",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MilosRasic/split-demo-app-chat"
+  },
   "author": "Miloš Rašić <milos.rasic@gmail.com> (https://github.com/MilosRasic)",
   "license": "MIT",
   "dependencies": {
