@@ -1,0 +1,25 @@
+{
+  "name": "@splint-demo/app-chat",
+  "version": "1.0.0",
+  "description": "Split Demo Chat App",
+  "main": "./src/App.js",
+  "repository": "",
+  "author": "Miloš Rašić <milos.rasic@gmail.com> (https://github.com/MilosRasic)",
+  "license": "MIT",
+  "dependencies": {
+    "@split-demo/shared-components": "latest",
+    "@split-demo/shared-deps": "latest",
+    "react-spinner": "^0.2.7"
+  },
+  "devDependencies": {
+    "@split-demo/build-deps": "latest",
+    "@split-demo/shared-config": "latest",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "./node_modules/.bin/webpack --bail --config make-webpack-config.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
